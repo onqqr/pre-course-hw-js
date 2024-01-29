@@ -1,5 +1,9 @@
 function number() {
   let number = Math.floor(Math.random() * 100)
-  return number % 2 ? console.log(number + ' :Это нечетное число') : console.log(number + ' :Это четное число')
+  if (number % 2) {
+    console.log(number + ' :Это нечетное число')
+  } else {
+    console.log(number + ' :Это четное число')
+  }
 }
 number()
