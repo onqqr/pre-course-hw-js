@@ -1,7 +1,7 @@
-let number = Math.floor(Math.random() * 100)
+let number1 = Math.floor(Math.random() * 100)
 
-if (number % 2) {
-  console.log(number + ' :это нечетное число')
+if (number1 % 2) {
+  console.log(number1 + ' :это нечетное число')
 } else {
-  console.log(number + ' :это четное число')
+  console.log(number1 + ' :это четное число')
 }
